@@ -1,0 +1,305 @@
+@font-face {
+    font-family: TijoFontRale;
+    src: url(../fonts/TijoFontRale.ttf);
+    font-weight:800;
+}
+
+@font-face {
+    font-family: TijoFontMenu;
+    src: url(../fonts/TijoFontMenu.otf);
+    font-weight:600;
+}
+
+body{
+	background-color: #222;
+	color: #F9FF05;
+}
+
+#RegForm_Dis
+{
+	position: fixed;
+	padding:20px;
+	height:580px;
+	top:10%;
+	width:50%;
+	left:25%;
+	z-index: 1001;
+	background: rgba(0,0,0,0.7);
+	box-shadow: 1px 2px 2px black;
+}
+
+.menuRow
+{
+	background-color: rgba(0,0,0,0.0);
+	box-shadow: 0px 0px 0px black;
+	font-family: TijoFontMenu;
+	height:80px;
+	width:100%;
+	z-index:1000;
+	position: fixed;
+	top:3%;
+}
+
+.menuButton
+{
+	float:right;
+	font-size: 20px;
+	margin-top:25px;
+	margin-right:25px;
+	margin-bottom: 12px;
+	padding-top:3px;
+	padding-bottom:3px;
+	padding-left:10px;
+	padding-right:10px;
+	border: 1px solid #333;
+	border-radius: 2px;
+	letter-spacing: 5px;
+	background: rgba(0,0,0,0.3);
+	cursor:pointer;
+}
+
+.menuButton:hover
+{
+	border-color: green;
+	background: rgba(0,0,0,0.6);
+}
+
+.logoImage
+{
+	float:left;
+	height:90px;
+	margin:2px;
+	border:0px solid black;
+}
+
+.logoImage:hover
+{
+border:2px solid green;
+}
+
+.row1
+{
+	height:750px;
+	background: url('../images/congruent_outline.png') repeat;
+	z-index:999;
+	position:relative;
+}
+
+.row1Layer1
+{
+	position:relative;
+	height:100%;
+	width:100%;
+	text-align: center;
+	vertical-align: center;
+
+	/*background-color: rgba(255,255,255,0.5);*/
+}
+
+.introHolder
+{
+position:absolute;
+top:68%;
+left:35%;
+width:30%;
+height:22%;
+}
+
+
+.introButton
+{
+ width:120px;
+ height:120px;
+ font-family: TijoFontRale;
+ color: #FFFFFF;
+ font-size: 24px;
+ border:3px solid #F9FF05;
+ background-color: rgba(0,0,0,0.0) !important;
+ background-image: none !important;
+ border-radius: 650px !important;
+ /*background-image: linear-gradient(to bottom,#FF056D 0,#69052E 100%) !important; */
+
+}
+
+.introButton:hover
+{
+color:#666!important;
+border:3px solid green;
+}
+
+.subIntroHolder
+{
+ position:absolute;
+ top:35%;
+ background-color: rgba(0,0,0,0.2);
+
+ height:12%;
+ left:0%;
+ width:100%;
+ font-family: TijoFontRale;
+ font-size:56px;
+ text-align: center;
+ vertical-align: middle;
+ /*box-shadow: 0px 1px 1px #333;*/
+}
+
+.subIntroHolder:hover
+{
+	background-color: rgba(0,0,0,0.3);
+}
+
+.subIntroText
+{
+
+	font-size:27px;
+	color:#FF056D;
+	opacity:0.7;
+}
+
+
+
+.Testimonial
+{
+	float:left;
+	width:33.33%;
+	height:100%;
+}
+
+.TestimonialPicture
+{
+	float:left;
+	background-image:url('../images/row2Image2.jpg');
+	background-repeat:no-repeat;
+	width:130px;
+	height:130px;
+	border-radius:500px;
+	margin: 15% 15px;
+	background-size:100% 100%;
+	border: 3px solid black;
+}
+
+.TestimonialPicture:hover
+{
+	border-color:#c12e2a;
+}
+
+.TestimonialText
+{
+	float:left;
+	margin-top:3%;
+	margin-left:10px;
+	margin-right:10px;
+	margin-bottom:10px;
+	height:235px;
+	width:54%;
+	border-radius:10px;
+	background-color: #333;
+	opacity:0.9;
+	border:2px solid #333;
+}
+
+.TestimonialText:hover
+{
+	border-color:#666;	
+}
+
+.TestimonialP
+{
+	margin:2px;
+	color:#666;
+	font-size:14px;
+}
+
+form,h2
+{
+	color:#E6F50A;
+}
+
+h3
+{
+	font-size:19px;
+}
+
+form
+{
+	background-color:#333;
+	opacity:0.9!important;
+	padding:20px;
+	border-radius:10px;
+	margin:10px;
+	width:50%
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) {
+    #TijoDanceVideo {
+        visibility:hidden;
+    }
+    .Testimonial
+    {
+    width:100%;
+    }
+    
+    form{
+    left:10%!important;
+    background-color:#333;
+	opacity:0.9!important;
+	padding:10px;
+	border-radius:10px;
+	margin:5px;
+	width:80%;
+	}
+	
+	.row1
+   {
+	height:750px;
+	background: url('../images/Poster.png') no-repeat;
+	z-index:999;
+	position:relative;
+	background-size:100% 100%;
+   }
+   
+   .introButton
+	{
+	 width:150px;
+	 height:150px;
+	 font-family: TijoFontRale;
+	 color: #FFFFFF;
+	 font-size: 30px;
+	 border:4px solid #F9FF05;
+	 background-color: rgba(0,0,0,0.6) !important;
+	 background-image: none !important;
+	 border-radius: 650px !important;
+	 /*background-image: linear-gradient(to bottom,#FF056D 0,#69052E 100%) !important; */
+	
+	}
+	
+	.menuButton
+	{
+		float:right;
+		font-size: 30px;
+		margin-top:22px;
+		margin-right:25px;
+		margin-bottom: 12px;
+		padding-top:3px;
+		padding-bottom:3px;
+		padding-left:10px;
+		padding-right:10px;
+		border: 1px solid #333;
+		border-radius: 6px;
+		letter-spacing: 5px;
+		background: rgba(0,0,0,0.2);
+		cursor:pointer;
+	}
+	
+	.logoImage
+	{
+		float:left;
+		height:75px;
+		margin:9px;
+		border:0px solid black;
+	}
+	
+    
+}
